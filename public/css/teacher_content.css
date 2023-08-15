@@ -1,0 +1,99 @@
+/* 老師個人頁面 */
+.teacher-hr-first {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    background-color: #68d619;
+}
+
+.teacher-hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+    background-color: #dbdbdb;
+}
+
+.teacher_grade {
+    padding-left: 50px;
+}
+
+.teacher_grade li {
+    list-style-type: disc;
+}
+
+/* 老師個人頁面 */
+/* ============ only desktop view ============ */
+@media all and (min-width: 992px) {
+    .navbar .dropdown-menu-end {
+        right: 0;
+        left: auto;
+    }
+
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: .3s;
+        margin-top: 0;
+    }
+
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+
+    .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+
+    .navbar .dropdown-menu.fade-up {
+        top: 180%;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: .3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+    }
+
+    .header_background {
+        justify-content: center;
+    }
+
+    .navbar-position {
+        justify-content: center;
+    }
+
+    /* 刪除箭頭 */
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:992px) {
+    .teacher-Breadcrumb {
+        display: none;
+    }
+
+    .footer-icon {
+        justify-content: flex-start;
+        padding-left: 30px;
+    }
+}

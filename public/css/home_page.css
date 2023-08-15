@@ -1,0 +1,34 @@
+.home_carousel {
+    height: 50%;
+}
+
+.carousel-item img {
+    height: 435px;
+}
+
+/* 系所公告 */
+.dottedline {
+    margin-top: 15px;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    border-color: #b5b5b5;
+}
+
+.announcement {
+    margin-right: 50px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.teacher-pic {
+    border: 3px solid #bababa;
+    padding: 20px;
+}
+.b_text {
+    display: flex;
+    justify-content: center; /* 水平居中 */
+    align-items: center; /* 垂直居中 */
+    text-align: center; /* 水平居中文本內容 */
+  }

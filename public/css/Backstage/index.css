@@ -1,0 +1,194 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+html {
+    height: 100%;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background: #222;
+}
+
+
+
+.btn {
+    position: relative;
+    display: inline-block;
+    color: white;
+    font-size: 14px;
+    font-family: 'Anonymous Pro';
+    text-decoration: none;
+    margin: 30px 15px;
+    padding: 15px 50px;
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 3s all ease;
+    width: 160px;
+}
+
+.btn1 {
+    border: 2px solid #1DB954;
+}
+
+.btn2 {
+    border: 2px solid #6c5ce7;
+}
+
+.btn3 {
+    border: 2px solid #f368e0;
+}
+
+.btn4 {
+    border: 2px solid #ff9f43;
+}
+
+.btn5 {
+    border: 2px solid #6ae4da;
+}
+
+.btn6 {
+    border: 2px solid #fcf96c;
+}
+
+.btn7 {
+    border: 2px solid pink;
+}
+
+.btn8 {
+    border: 2px solid #807c78;
+}
+
+.btn9 {
+    border: 2px solid #fd774e;
+}
+
+.btn10 {
+    border: 2px solid #f50c0c;
+}
+
+.btn::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    transition: all 0.6s ease;
+}
+
+.btn1::before {
+    background: #1DB954;
+    width: 0;
+    height: 100%;
+}
+
+.btn1:hover::before {
+    width: 100%;
+}
+
+.btn2::before {
+    background: #6c5ce7;
+    width: 0;
+    height: 100%;
+}
+
+.btn2:hover::before {
+    width: 100%;
+}
+
+.btn3::before {
+    background: #f368e0;
+    width: 0;
+    height: 100%;
+    /* transform: translate(-50%, -50%) rotate(45deg); */
+}
+
+.btn3:hover::before {
+    width: 100%;
+}
+
+.btn4::before {
+    background: #ff9f43;
+    width: 0;
+    height: 100%;
+    /* transform: translate(-50%, -50%) rotate(-45deg); */
+}
+
+.btn4:hover::before {
+    width: 100%;
+}
+
+.btn5::before {
+    background: #6ae4da;
+    width: 0;
+    height: 100%;
+    /* transform: translate(-50%, -50%) rotate(-45deg); */
+}
+
+.btn5:hover::before {
+    width: 100%;
+}
+
+.btn6::before {
+    background: #fcf96c;
+    width: 0;
+    height: 100%;
+    /* transform: translate(-50%, -50%) rotate(-45deg); */
+}
+
+.btn6:hover::before {
+    width: 100%;
+}
+
+.btn7::before {
+    background: pink;
+    width: 0;
+    height: 100%;
+    /* transform: translate(-50%, -50%) rotate(-45deg); */
+}
+
+.btn7:hover::before {
+    width: 100%;
+}
+
+.btn8::before {
+    background: #807c78;
+    width: 0;
+    height: 100%;
+    /* transform: translate(-50%, -50%) rotate(-45deg); */
+}
+
+.btn8:hover::before {
+    width: 100%;
+}
+
+.btn9::before {
+    background: #fd774e;
+    width: 0;
+    height: 100%;
+    /* transform: translate(-50%, -50%) rotate(-45deg); */
+}
+
+.btn9:hover::before {
+    width: 100%;
+}
+
+.btn10::before {
+    background: #f50c0c;
+    width: 0;
+    height: 100%;
+    /* transform: translate(-50%, -50%) rotate(-45deg); */
+}
+
+.btn10:hover::before {
+    width: 100%;
+}

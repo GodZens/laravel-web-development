@@ -1,0 +1,21 @@
+#啟動伺服器
+php artisan serve
+
+Controller – MVC 中的C(Controller)，管理系統的流程、邏輯
+
+php artisan make:controller {名稱} =>創建make:controller 
+
+Blade – MVC中的V，view ，模板系統
+
+#在 Laravel 裡面，設置路徑的方式是在 routes/ 資料夾裡面
+Route – 配合blade模板系統、Controller，管理整個網站的網址及入口
+get:根據路由獲得
+post:會隱藏路由
+match:兩個都會抓
+any:可以匹配到任何路由
+
+php artisan roote:list:可以獲得路由的列表
+
+vendor - 運作自動測試
+
+asset - "{{asset('需要引入的文件路径')}}"

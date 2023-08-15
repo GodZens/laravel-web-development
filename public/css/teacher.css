@@ -1,0 +1,131 @@
+/* 側邊表單 */
+.side-menu {
+    width: 300px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-menu form {
+    display: flex;
+    margin: 50px 10px 0px;
+    border-radius: 100px;
+    border: 1px solid black;
+}
+
+.side-menu form button,
+.side-menu form input {
+    border: none;
+    padding: 5px 10px;
+    width: 230px;
+    background-color: transparent;
+}
+
+.side-menu form button:focus,
+.side-menu form input:focus {
+    outline: none;
+}
+
+.side-menu form input {
+    width: 150px;
+}
+
+.side-menu form button {
+    width: 50px;
+}
+
+.side-menu>nav>a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+}
+
+.side-menu>nav>a+a::before {
+    content: '';
+    position: absolute;
+    border-top: 1px solid #e0dede;
+    left: 10px;
+    right: 10px;
+    top: 0;
+}
+
+.side-menu>nav>a .fa-solid {
+    margin-right: -1.1em;
+    transform: scale(0);
+    transition: .3s;
+}
+
+.side-menu>nav>a:hover .fa-solid {
+    margin-right: 0em;
+    transform: scale(1);
+}
+
+.menu-text,
+.fa-solid {
+    color: black;
+}
+
+.side-menu>nav>a:hover .menu-text,
+.fa-solid {
+    color: #53b8f3;
+}
+
+/* 側邊表單 */
+
+/* teacher */
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-10 {
+    font-size: 10px;
+}
+
+.teacher-Breadcrumb-background {
+    background-image: url(../漸變背景.jpg);
+    background-size: 100% 100%;
+}
+
+.breadcrumb {
+    background: none;
+}
+
+.teacher-title {
+    font-family: 微軟正黑體;
+    font-size: 34px;
+    color: #087abd;
+}
+
+.dottedline {
+    margin-top: 15px;
+    border-bottom-style: dotted;
+    border-bottom-width: 1px;
+    border-color: #b5b5b5;
+}
+
+/* .teacher-pic {
+    border: 3px solid #bababa;
+    padding: 20px;
+} */
+
+.teacher-pic {
+    border: 3px solid #bababa;
+    padding: 20px;
+    width: 200px;  /* 设置图片的宽度 */
+    height: 250px; /* 设置图片的高度 */
+    margin-bottom: 8px;
+    object-fit: cover; /* 调整图片以适应指定的宽度和高度，并保持其纵横比 */
+}
+
+.content-space {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-space img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
